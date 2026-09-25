@@ -1,0 +1,103 @@
+{
+  "clock": [
+    { "time": "9:00", "block": "CROWN CALL", "mins": "3 MIN", "what": "Energy and receipts: wins, the bell, one shout-out." },
+    { "time": "9:03", "block": "THE LESSON", "mins": "10 MIN", "what": "One idea, one framework, one line to steal." },
+    { "time": "9:13", "block": "LIVE REPS", "mins": "14 MIN", "what": "Everybody talks. The drill format changes every day." },
+    { "time": "9:27", "block": "LOCK-IN", "mins": "3 MIN", "what": "One commitment, then straight to the phones at 9:30." }
+  ],
+  "lanes": [
+    { "day": "MON", "lane": "THE OPEN", "what": "Openers, speed to lead, first 10 seconds, weekly goals" },
+    { "day": "TUE", "lane": "THE CONVERSATION", "what": "Discovery, questions, tonality, closing frameworks" },
+    { "day": "WED", "lane": "CEO WEDNESDAY", "what": "Retention · Scaling personal sales · Building an agency · Profitability" },
+    { "day": "THU", "lane": "BATTLE FOR THE CROWN", "what": "Objection elimination to kick off Throw-Down Thursday" },
+    { "day": "FRI", "lane": "FILM ROOM", "what": "Real call tape: freeze, fix, rep it" },
+    { "day": "SAT", "lane": "THE ARENA", "what": "Rotating event before the 12 PM EOW" }
+  ],
+  "rotation": [
+    {
+      "week": 1, "theme": "THE FOUNDATION",
+      "mon": "Win the first 10 seconds",
+      "tue": "NEPQ: Ask, don't tell",
+      "wed": "Client Retention",
+      "thu": "Brush-offs & Stalls",
+      "fri": "Tonality",
+      "sat": "Hot Seat + Draft Day"
+    },
+    {
+      "week": 2, "theme": "THE CLOSER",
+      "mon": "Speed to lead & the 5-touch follow-up",
+      "tue": "Hormozi's CLOSER: sell the vacation",
+      "wed": "Scaling Personal Sales",
+      "thu": "Money Objections",
+      "fri": "The Close",
+      "sat": "Shark Tank (recruit pitch)"
+    },
+    {
+      "week": 3, "theme": "THE BUILDER",
+      "mon": "Certainty: the three tens",
+      "tue": "Voss: labels, mirrors, accusation audit",
+      "wed": "Building an Agency",
+      "thu": "Trust & \"Is this a scam?\"",
+      "fri": "Trust moments on tape",
+      "sat": "Reverse Role Play"
+    },
+    {
+      "week": 4, "theme": "THE OWNER",
+      "mon": "Referrals & the rewrite pipeline",
+      "tue": "Product sprint: explain it like they're 10",
+      "wed": "Profitability & Strategy",
+      "thu": "Championship Battle",
+      "fri": "Best of the Month",
+      "sat": "The Crowning Ceremony"
+    }
+  ],
+  "principles": [
+    { "t": "Never the same drill twice in a row", "d": "Each day uses a different rep format, so there's always something new." },
+    { "t": "Everybody talks, every day", "d": "No passive seats. If you're in the room, you're repping." },
+    { "t": "One idea a day", "d": "One framework and one line to steal. Simple enough to use on the next dial." },
+    { "t": "Agents teach by Week 3", "d": "Top producers run The Lesson. Teaching builds mastery, and that's how leaders get built." },
+    { "t": "End on a commitment", "d": "Every session ends with a specific action before the first dial." }
+  ],
+  "culture": [
+    { "name": "THE CROWN", "what": "A physical crown (or belt) that moves to every Battle winner. It sits on his desk all week." },
+    { "name": "THE BELL", "what": "Every sale rings the bell in the office and gets a post in #bell on Discord. No sale goes unheard." },
+    { "name": "WALKOUT SONGS", "what": "Every agent picks one. Battle contestants walk out to theirs." },
+    { "name": "BOUNTY BOARD", "what": "Daily bounties from leadership: first sit before 10, most dials by lunch, first IUL of the week." },
+    { "name": "DRAFT DAY", "what": "Captains snake-draft teams for the next week's Throw-Down competition." },
+    { "name": "SHARK TANK", "what": "60-second recruiting pitches scored by a 3-person panel. It builds the agency-building muscle." },
+    { "name": "REVERSE ROLE PLAY", "what": "Leaders play the agent and agents play the nightmare client. The room learns by watching the pros get tested." },
+    { "name": "GUEST MIC", "what": "Once a month, an outside top producer or agency owner joins on Zoom for a 20-minute Q&A." },
+    { "name": "THE CROWNING CEREMONY", "what": "The last Saturday of each month is the awards show. Dress up, give speeches, hand out trophies." }
+  ],
+  "awards": [
+    "KING OF IP · top issued premium",
+    "DIAL KING · most intentional dials",
+    "IRON BOOK · best persistency (fewest lapses)",
+    "COMEBACK OF THE MONTH · biggest jump from last month",
+    "RECRUITER OF THE MONTH · most new agents brought in",
+    "BATTLE CHAMPION · most Crown wins",
+    "ROOKIE OF THE MONTH · top agent in his first 90"
+  ],
+  "research": [
+    { "who": "Jeremy Miner", "what": "NEPQ (Neuro-Emotional Persuasion Questioning)", "steal": "Ask questions that let the client talk himself into the problem: Connect → Situation → Problem → Solution → Consequence → Commit. Curious tone, no pushing." },
+    { "who": "Jordan Belfort", "what": "Straight Line System", "steal": "The client must rate the product, you, and the company a 10 out of 10 on certainty. Tonality carries certainty. Loop objections back to certainty instead of arguing." },
+    { "who": "Chris Voss", "what": "Tactical empathy (Never Split the Difference)", "steal": "Labels (\"It sounds like…\"), mirrors (repeat their last 1–3 words), an accusation audit that names their fears first, and \"how/what\" questions. Go for \"That's right\" instead of \"You're right.\"" },
+    { "who": "Alex Hormozi", "what": "CLOSER framework · Rule of 100", "steal": "Clarify, Label, Overview past pain, Sell the vacation, Explain away concerns, Reinforce. Every objection is circumstances, other people, or self. Rule of 100: 100 primary actions a day for 100 days." },
+    { "who": "Jeb Blount", "what": "Fanatical Prospecting · Objections", "steal": "The 30-Day Rule: today's prospecting pays off over the next 90 days. Protect your Golden Hours for selling only. For brush-offs, use Ledge → Disrupt → Ask." },
+    { "who": "Andy Elliott", "what": "Daily reps and high-standard sales culture", "steal": "Role play every single day, loud and in front of the room. Standards and energy are trained like skills." },
+    { "who": "Grant Cardone", "what": "The 10X Rule", "steal": "Set targets 10× bigger and match them with massive action. Most people fail from too little activity, not too much." },
+    { "who": "David Duford", "what": "Final-expense telesales training", "steal": "Persistency is the business: match draft dates to deposit days, sell a premium they can keep, and follow up before the first draft." },
+    { "who": "Cody Askins", "what": "8% Nation (insurance agents)", "steal": "Follow-up and personal brand compound. Post daily, show receipts, and treat your book of business like a company." }
+  ],
+  "data": [
+    { "stat": "100×", "text": "Contact is 100× more likely when you call within 5 minutes instead of 30 (MIT / InsideSales Lead Response Management study)." },
+    { "stat": "2×", "text": "Openers that state a reason for the call perform about 2× better. \"Is this a bad time?\" cuts results by roughly 40% (Gong Labs cold-call research)." },
+    { "stat": "1 in 7", "text": "LIMRA has long reported that only about 1 in 7 new agents is still in the business four years later. Culture and training are the retention plan." },
+    { "stat": "12 MO", "text": "The chargeback window. A lapse inside it comes out of your pocket and can cost you carrier contracts." }
+  ],
+  "compliance": [
+    "Calling hours: federal law allows 8 AM–9 PM in the client's local time. Florida is stricter at 8 AM–8 PM, and it limits repeat solicitation calls to the same person within 24 hours. Check each state with your IMO or compliance before dialing late.",
+    "Recording: Florida requires every party's consent to record a call. Only use disclosed and consented recordings in the Film Room.",
+    "No rebating: the reward card goes out whether the client buys or not. Sale posts show the client's first name and last initial only."
+  ]
+}

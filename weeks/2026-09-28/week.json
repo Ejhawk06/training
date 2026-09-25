@@ -1,0 +1,189 @@
+{
+  "id": "2026-09-28",
+  "dates": "SEP 28 – OCT 3, 2026",
+  "rotationWeek": 1,
+  "theme": "THE FOUNDATION",
+  "tagline": "Win the first ten seconds. Ask better questions. Keep every deal on the books.",
+  "weeklyStat": {
+    "value": "100×",
+    "label": "Calling a new lead within 5 minutes instead of 30 made contact 100× more likely (MIT / InsideSales Lead Response study)."
+  },
+  "days": [
+    {
+      "day": "MON",
+      "date": "9/28",
+      "lane": "THE OPEN",
+      "title": "Win the First 10 Seconds",
+      "format": "Speed Dating",
+      "crownCall": "Goal board. Every agent stands up and says his week out loud: IP goal, sits goal, and one thing he's fixing from last week. Leader writes them on the board, and they stay up until Saturday's EOW.",
+      "lesson": {
+        "bigIdea": "The client decides whether to stay on the line before you finish your second sentence. Sound like you're following up on their request, not selling them something.",
+        "points": [
+          "Say why you're calling in the first sentence. In Gong's cold-call research, openers that stated a clear reason for the call did about 2× better.",
+          "Never open with \"Is this a bad time?\" Gong found that line made a booked next step about 40% less likely. It hands them the exit.",
+          "Drop your tone at the end of each sentence and slow down 10%. Rising tone sounds like asking permission. Flat, calm tone sounds like a professional following up.",
+          "Speed to lead: call new leads within 5 minutes. The MIT / InsideSales study found contact was 100× more likely at 5 minutes than at 30."
+        ],
+        "stealThisLine": "Hey John, it's Mike. I'm getting back to you on the life insurance request you sent in. I've got it pulled up right here. Was that just for you, or for your wife too?"
+      },
+      "reps": {
+        "name": "Speed Dating",
+        "how": "Two lines facing each other. The agent delivers his opener while the client flips a reaction card: hangs up, \"Who is this?\", \"I didn't fill anything out\", friendly, or suspicious. 90 seconds, then the line shifts one seat. Six rounds, so everyone opens six times before 9:30."
+      },
+      "lockIn": "First sit booked by 10:30. Before your first dial, write your opener on a sticky note on your monitor, reason for the call included."
+    },
+    {
+      "day": "TUE",
+      "date": "9/29",
+      "lane": "THE CONVERSATION",
+      "title": "Ask, Don't Tell",
+      "format": "Question Ladder",
+      "crownCall": "Yesterday's scoreboard: top dialer, most sits, every sale. Each sale gets a bell ring and a 10-second breakdown from the agent of what worked.",
+      "lesson": {
+        "bigIdea": "People buy for their reasons, not yours. Jeremy Miner's NEPQ method is built on this: questions let the client talk himself into the problem, so you never have to push.",
+        "points": [
+          "The NEPQ path: Connect → Situation → Problem → Solution → Consequence → Commit. Don't skip to the product.",
+          "Situation: \"Who's the policy for? Anything in place right now?\"",
+          "Problem: \"If something happened tomorrow, who'd be left handling everything? How would they pay for it?\"",
+          "Consequence: \"What would that mean for her?\" Then stop talking. Silence does the work.",
+          "Tone is curious and a little slow, as if you genuinely want to know. You do."
+        ],
+        "stealThisLine": "What made you want to look into this now, instead of putting it off another year?"
+      },
+      "reps": {
+        "name": "Question Ladder",
+        "how": "Pairs. The agent has to ask 5 questions in a row with no pitching and no statements. If he makes a statement, his partner yells \"BUZZ\" and he starts over at question 1. Three minutes a side, then swap and run it again with a harder client."
+      },
+      "lockIn": "Write your 3 best \"why now\" questions on an index card and tape it next to your phone. Use all three on your first sit."
+    },
+    {
+      "day": "WED",
+      "date": "9/30",
+      "lane": "CEO WEDNESDAY",
+      "title": "Protect the Bag: Client Retention",
+      "format": "Close the Loop",
+      "crownCall": "Chargeback check. Leader reads one real (anonymous) chargeback from the book and asks the room: \"What would have saved this one?\"",
+      "lesson": {
+        "bigIdea": "A sale isn't a sale until it has been on the books for 12 months. A $60 policy that sticks beats a $120 policy that lapses, because the lapse comes back out of your pocket.",
+        "points": [
+          "Match the draft date to their deposit. Social Security pays on the 2nd, 3rd or 4th Wednesday depending on birthday (1st–10th, 11th–20th, 21st–31st). SSI pays on the 1st. People who started benefits before May 1997 are paid on the 3rd.",
+          "Read the bank and routing numbers back out loud and confirm the draft date twice before you hang up.",
+          "Send a welcome text within 24 hours: what to expect, that the carrier may call, and a letter in the mail.",
+          "Check in 2 days before the first draft. The Discord bot reminds you, so don't ignore it.",
+          "Don't stretch the budget. Sell the premium they can pay every month, not the biggest one they'll say yes to today."
+        ],
+        "stealThisLine": "I want this to be there when your family actually needs it, so let's line the draft up with when your check hits. What day does your Social Security come in?"
+      },
+      "reps": {
+        "name": "Close the Loop",
+        "how": "Pairs run only the last 3 minutes of the call: draft date, bank read-back, what to expect, referral ask with the reward card. The leader grades on a 5-box checklist. Five of five or you run it again."
+      },
+      "lockIn": "Before your first dial, open Command, find every draft date hitting in the next 7 days, and send each of those clients a check-in text."
+    },
+    {
+      "day": "THU",
+      "date": "10/1",
+      "lane": "BATTLE FOR THE CROWN",
+      "title": "Objection Battle: Brush-Offs & Stalls",
+      "format": "Elimination",
+      "crownCall": "Walkouts. Each contestant (every agent in his first 90 days, plus any vet who wants smoke) walks out to his song. The room gets loud. Throw-Down Thursday starts here.",
+      "lesson": {
+        "bigIdea": "Two-minute refresher before the fight: acknowledge, isolate, then ask a question that moves forward. Most early objections are reflexes, not decisions.",
+        "points": [
+          "Acknowledge: \"Totally fair.\" No arguing and no defending.",
+          "Isolate: \"Other than that, is there anything else that would stop you?\"",
+          "Ask forward: always finish on a question that moves toward the next step.",
+          "Hormozi's lens: every objection is about circumstances (time, money), other people (spouse, kids), or self (\"I'm not sure it's for me\"). Name which one it is before you answer."
+        ],
+        "stealThisLine": "Totally fair. Most people say that until they see the numbers. Can I ask you two quick questions, and if it's not a fit, I'll tell you myself?"
+      },
+      "reps": {
+        "name": "Battle for the Crown",
+        "how": "Full rules on the Battle page. Each round the leader plays the client and hits every contestant with the same objection. After each round the room votes, and the lowest vote is out. The last man standing takes the Crown and the prize."
+      },
+      "lockIn": "The winner gives a 30-second breakdown of his best handle. Everyone else writes down the one line they're stealing from him."
+    },
+    {
+      "day": "FRI",
+      "date": "10/2",
+      "lane": "FILM ROOM",
+      "title": "Tape Doesn't Lie: Tonality",
+      "format": "Say It 5 Ways",
+      "crownCall": "Bounty reveal. The leader posts today's bounty (for example, first sit before 10 AM gets lunch paid) and plays the one best 20-second clip of the week.",
+      "lesson": {
+        "bigIdea": "We break down tape like a football team. Jordan Belfort's rule is that the client needs to feel certain about three things: the product, you, and the company. Tonality is where certainty shows up or dies.",
+        "points": [
+          "Tape 1 is the best call of the week. Pause on the exact moment the client leaned in and ask the room what the agent did.",
+          "Tape 2 is a lost call. Pause on the moment it died, and the room calls out the better line.",
+          "Listen for certainty drops: uptalk, filler words, rushing the price, apologizing.",
+          "Compliance: only play calls recorded with proper consent. Florida requires every party to consent to a recording."
+        ],
+        "stealThisLine": "Based on everything you told me, this is exactly what I'd do if it were my own mom."
+      },
+      "reps": {
+        "name": "Say It 5 Ways",
+        "how": "Take the line where the lost call died. Five agents deliver it in five tones: curious, certain, caring, urgent, and \"reasonable man.\" The room votes on the winner, and that version goes into the script notes."
+      },
+      "lockIn": "Name one line you're cutting and one you're adding. Post both in #wins before 9:45."
+    },
+    {
+      "day": "SAT",
+      "date": "10/3",
+      "lane": "THE ARENA",
+      "title": "Hot Seat + Draft Day",
+      "format": "Hot Seat",
+      "crownCall": "Numbers first: whole-team dials, sits, sales and IP for the week. EOW is at 12, and this is the warm-up.",
+      "lesson": {
+        "bigIdea": "Learn from the man who just did it. The week's top producer takes the Hot Seat, and the room pulls his playbook out of him in 12 minutes.",
+        "points": [
+          "\"Walk us through your best call this week, opener to close.\"",
+          "\"What time of day did your sits happen?\"",
+          "\"What did you do differently than last week?\"",
+          "\"What would you tell yourself on day one?\""
+        ],
+        "stealThisLine": "Don't wing a 10K week. Plan it the night before."
+      },
+      "reps": {
+        "name": "Draft Day",
+        "how": "The week's top 2 producers are captains. Snake draft the room into two teams for next week's Throw-Down. The team with the lower combined IP next Saturday pays the punishment the winners pick, uncomfortable but not extreme, per the standards."
+      },
+      "lockIn": "Every agent posts his goal for next week in Discord before EOW: IP, sits, and his one fix."
+    }
+  ],
+  "battle": {
+    "title": "BATTLE FOR THE CROWN",
+    "subtitle": "Objection elimination. Last man standing wears the Crown.",
+    "rules": [
+      "Contestants: every agent in his first 90 days is in. Vets can volunteer to defend.",
+      "The leader plays the client. Every contestant gets the same objection each round and has 45–60 seconds to handle it.",
+      "After each round the room votes. Raise a hand for each contestant, or use a Discord poll for remote agents. The lowest vote is out. On a tie, the tied contestants go to sudden death with a new objection.",
+      "Vote on four things: CONTROL (did he keep the frame), TONE (calm and certain), QUESTION (did he end with a question that moves forward) and CLEAN (no false promises, nothing he couldn't say to compliance).",
+      "The final two face the Boss Round: three objections stacked back to back without a break.",
+      "The winner holds the physical Crown at his desk all week, picks the walkout song for next battle, and takes the prize."
+    ],
+    "prize": "Prize (leadership sets it): e.g., $100 in lead credit plus lunch on the team",
+    "rounds": [
+      {
+        "round": "ROUND 1 · BRUSH-OFFS",
+        "objections": ["\"I'm not interested.\"", "\"How did you get my number?\"", "\"I didn't fill anything out.\""],
+        "handle": "Acknowledge, then remind them of the request with specifics (date, what they asked about) and ask a light question. \"No worries. It came in on Tuesday asking about coverage for final expenses. Was that for you or someone else?\""
+      },
+      {
+        "round": "ROUND 2 · STALLS",
+        "objections": ["\"Just mail me something.\"", "\"Call me back next week.\""],
+        "handle": "The mail is where deals go to die. \"I can, but most of it won't make sense without your age and health. Can I ask two quick questions so what I send is actually your price?\""
+      },
+      {
+        "round": "ROUND 3 · THE THINKER",
+        "objections": ["\"I need to think about it.\""],
+        "handle": "Isolate. \"Totally. Usually when someone says that, it's the price, the coverage, or whether they trust it. Which one is it for you?\""
+      },
+      {
+        "round": "BOSS ROUND · STACKED",
+        "objections": ["\"I need to talk to my wife\" → \"Money's tight right now\" → \"I don't give my bank info over the phone.\""],
+        "handle": "One objection at a time, calm tone, a question at the end of each. Winners slow down when the pressure goes up."
+      }
+    ]
+  },
+  "arenaNext": "Next Saturday: SHARK TANK. Every agent pitches the opportunity in 60 seconds as if he's recruiting, and a panel of three scores it."
+}
