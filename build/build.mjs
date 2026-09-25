@@ -19,16 +19,19 @@ const F = JSON.parse(fs.readFileSync(path.join(root, 'framework', 'framework.jso
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const fontUrl = (pkg, file) => pathToFileURL(path.join(here, 'node_modules/@fontsource', pkg, 'files', file)).href;
 
-// ---- Brand: real logo files in /brand win; otherwise a drawn crown + type wordmark ----
-const brandFile = name => {
-  for (const ext of ['png', 'svg', 'jpg', 'webp']) {
-    const p = path.join(root, 'brand', `${name}.${ext}`);
-    if (fs.existsSync(p)) return pathToFileURL(p).href;
-  }
-  return null;
+// ---- Brand: logo SVGs from /brand (Crowning Point brand kit); a drawn crown is the fallback ----
+const LOGOS = {
+  wordmark: '06-crown-w-wordmark-chrome.svg',       // Crown-W wordmark
+  horizontal: '14-y2k-horizontal-chrome.svg',       // globe + CROWNING POINT CAPITAL
+  globe: '20-y2k-convergence-globe-chrome.svg',     // Convergence globe with name
+  globeCrown: '12-y2k-globe-crown-chrome.svg',
+  monogram: '19-embrace-monogram-chrome.svg',       // Embrace CPC monogram
+  monogramRed: '19-embrace-monogram-red.svg',
 };
-const LOGO_MARK = brandFile('logo-mark');
-const LOGO_WORDMARK = brandFile('logo-wordmark');
+const logoUrl = role => {
+  const p = path.join(root, 'brand', LOGOS[role]);
+  return fs.existsSync(p) ? pathToFileURL(p).href : null;
+};
 
 let crownId = 0;
 function crownSvg(size) {
@@ -45,12 +48,11 @@ function crownSvg(size) {
   <path d="M60 50 L66 60 L60 70 L54 60 Z" fill="#c8102e"/>
 </svg>`;
 }
-const logoMark = size => LOGO_MARK
-  ? `<img class="logo-img" src="${LOGO_MARK}" style="height:${size}px" alt="Crowning Point">`
-  : crownSvg(size);
-const wordmark = cls => LOGO_WORDMARK
-  ? `<img class="logo-img ${cls}" src="${LOGO_WORDMARK}" alt="Crowning Point">`
-  : `<div class="wordmark ${cls}"><span class="chrome">CROWNING POINT</span></div>`;
+// logo(role, heightPx): the brand-kit SVG at a fixed height, or the drawn crown if the file is missing
+const logo = (role, h, style = '') => {
+  const url = logoUrl(role);
+  return url ? `<img class="logo-img" src="${url}" style="height:${h}px;width:auto;${style}" alt="Crowning Point Capital">` : crownSvg(h);
+};
 
 const baseCss = `
 @font-face{font-family:'Barlow Condensed';font-weight:500;src:url(${fontUrl('barlow-condensed', 'barlow-condensed-latin-500-normal.woff2')})}
@@ -85,7 +87,7 @@ const pageCss = `
 .page .chrome{background:none;color:#e2e3e6}
 .page{width:8.5in;height:11in;position:relative;overflow:hidden;padding:.6in .65in;page-break-after:always;background:var(--ink)}
 .page:last-child{page-break-after:auto}
-.hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.hdr{display:flex;justify-content:space-between;align-items:center;margin:-14px 0 12px}
 .hdr .wordmark{font-size:13px}
 .hdr .wk{font-family:'Barlow Condensed';font-weight:600;letter-spacing:.16em;font-size:12px;color:var(--muted)}
 .foot{position:absolute;z-index:1;bottom:.38in;left:.65in;right:.65in;display:flex;justify-content:space-between;font-family:'Barlow Condensed';letter-spacing:.16em;font-size:10.5px;color:#6d6d74}
@@ -163,14 +165,13 @@ table.rot tr.now td{background:rgba(200,16,46,.12)}
 .comp li{font-size:10.6px;line-height:1.45;color:#bdbdc3;margin:3px 0 3px 14px}
 `;
 
-const hdr = () => `<div class="hdr">${wordmark('')}<div class="wk">WEEK OF ${esc(W.dates)} · ${esc(W.theme)}</div></div>`;
+const hdr = () => `<div class="hdr">${logo('wordmark', 46)}<div class="wk">WEEK OF ${esc(W.dates)} · ${esc(W.theme)}</div></div>`;
 const foot = n => `<div class="foot"><span>RESOLUTE × CROWNING POINT · MORNING TRAINING</span><span>${n}</span></div>`;
 const clockHtml = () => `<div class="clock">${F.clock.map(c => `<div><div class="tm chrome">${c.time}</div><div class="bl">${c.block}</div><div class="mn">${c.mins}</div><p>${esc(c.what)}</p></div>`).join('')}</div>`;
 
 function coverPage() {
   return `<section class="page cover"><div class="glow"></div>
-  ${logoMark(150)}
-  <div style="margin-top:18px">${wordmark('')}</div>
+  ${logo('globe', 250)}
   <div class="kicker">MORNING SALES TRAINING · 9:00 AM</div>
   <div class="big chrome">THE 30</div>
   <div class="d muted" style="letter-spacing:.3em;font-size:16px">WEEK OF ${esc(W.dates)}</div>
@@ -213,7 +214,7 @@ function battlePage(n) {
   const b = W.battle;
   const thu = W.days.find(d => d.lane.includes('BATTLE'));
   return `<section class="page"><div class="glow"></div>${hdr()}
-  <div style="display:flex;gap:18px;align-items:center">${logoMark(70)}<div>
+  <div style="display:flex;gap:18px;align-items:center">${logo('monogramRed', 84)}<div>
     <span class="pill">${thu ? `${thu.day} ${thu.date} · 9:00 AM` : 'THURSDAY · 9:00 AM'}</span>
     <h1 class="t chrome" style="font-size:52px;margin-top:6px">${esc(b.title)}</h1></div></div>
   <p class="lede serif" style="font-size:20px;margin-top:6px;color:#fff">${esc(b.subtitle)}</p>
@@ -293,8 +294,8 @@ html,body{width:${w}px;height:${h}px}.s{width:${w}px;height:${h}px}</style></hea
 function feedSchedule(story) {
   const h = story ? 1920 : 1350;
   return socialDoc(1080, h, `<div class="s"><div class="glow"></div>
-  <div class="top">${logoMark(story ? 96 : 80)}${wordmark('')}</div>
-  <div style="margin-top:${story ? 90 : 44}px" class="kick">MORNING TRAINING · 9:00 AM</div>
+  <div class="top">${logo('horizontal', story ? 120 : 96)}</div>
+  <div style="margin-top:${story ? 80 : 30}px" class="kick">MORNING TRAINING · 9:00 AM</div>
   <div class="h chrome" style="font-size:${story ? 150 : 118}px;margin-top:10px">${esc(W.theme)}</div>
   <div class="d" style="font-size:30px;letter-spacing:.24em;margin-top:14px;color:#fff">WEEK OF ${esc(W.dates)}</div>
   <div style="margin-top:${story ? 70 : 34}px">
@@ -302,13 +303,14 @@ function feedSchedule(story) {
     <div><div class="ln">${esc(d.lane)}</div><div class="ti">${esc(d.title)}</div></div></div>`).join('')}
   </div>
   <div style="margin-top:${story ? 70 : 36}px;display:grid;grid-template-columns:repeat(4,1fr);gap:10px">${F.clock.map(c => `<div style="background:var(--panel);border-top:4px solid var(--red);padding:14px 16px"><div class="h chrome" style="font-size:40px">${c.time}</div><div class="d" style="font-weight:700;font-size:21px;letter-spacing:.1em;margin-top:6px">${c.block}</div></div>`).join('')}</div>
-  <div class="bottom"><span>TAMPA, FL</span><span class="red">RESOLUTE × CROWNING POINT</span></div></div>`);
+  ${story ? `<div style="margin-top:auto;display:flex;justify-content:center;padding-top:40px">${logo('wordmark', 170)}</div>` : ''}
+  <div class="bottom" ${story ? 'style="margin-top:50px"' : ''}><span>TAMPA, FL</span><span class="red">RESOLUTE × CROWNING POINT</span></div></div>`);
 }
 
 function feedBattle() {
   const thu = W.days.find(d => d.lane.includes('BATTLE'));
   return socialDoc(1080, 1350, `<div class="s" style="align-items:center;text-align:center"><div class="glow" style="background:radial-gradient(ellipse at 50% 30%,rgba(200,16,46,.45),transparent 60%)"></div>
-  <div style="margin-top:30px">${logoMark(230)}</div>
+  <div style="margin-top:10px">${logo('monogram', 270)}</div>
   <div class="kick" style="margin-top:36px">${thu ? `${thu.day === 'THU' ? 'THURSDAY' : thu.day} ${thu.date}` : 'THURSDAY'} · 9:00 AM</div>
   <div class="h chrome" style="font-size:150px;margin-top:18px">BATTLE<br>FOR THE<br>CROWN</div>
   <div class="serif" style="font-size:46px;margin-top:26px;color:#fff">Last man standing wears the crown.</div>

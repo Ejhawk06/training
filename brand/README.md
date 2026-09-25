@@ -1,8 +1,13 @@
 # Logos
 
-Drop the new logo files here and rebuild. They replace the drawn placeholder crown and wordmark everywhere (PDF, social graphics):
+Vector logos from the Crowning Point Capital brand kit (`crowning-point-brand-kit.zip`), in chrome, red and white versions:
 
-- `logo-mark.png` (or .svg): the icon (Embrace Monogram / Convergence Globe / crown mark). Transparent background, light/chrome version for dark backgrounds.
-- `logo-wordmark.png` (or .svg): the Crown-W wordmark, light version, transparent background.
+| File | Logo | Used for |
+|---|---|---|
+| `06-crown-w-wordmark-*.svg` | Crown-W wordmark | PDF page headers, bottom of the IG story |
+| `20-y2k-convergence-globe-*.svg` | Convergence Globe | PDF cover |
+| `19-embrace-monogram-*.svg` | Embrace CPC monogram | Battle for the Crown page and post |
+| `14-y2k-horizontal-*.svg` | Globe + name, horizontal | Top of the IG schedule post and story |
+| `12-y2k-globe-crown-*.svg`, `15-y2k-globe-icon-*.svg` | Globe crown, globe icon | Spares |
 
-Then run `cd build && npm install && node build.mjs <week-id>`.
+To swap a logo, change the file names in the `LOGOS` map at the top of `build/build.mjs`, then rebuild.
