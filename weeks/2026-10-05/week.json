@@ -1,0 +1,188 @@
+{
+  "id": "2026-10-05",
+  "dates": "OCT 5 – OCT 10, 2026",
+  "rotationWeek": 2,
+  "theme": "THE CLOSER",
+  "tagline": "Chase every lead. Sell the outcome. Turn \"I can't afford it\" into a budget.",
+  "weeklyStat": {
+    "value": "93%",
+    "label": "Of leads that converted, 93% were reached by the 6th call attempt. Half of all leads only ever get called once (Velocify study of ~3.5 million leads)."
+  },
+  "days": [
+    {
+      "day": "MON",
+      "date": "10/5",
+      "lane": "THE OPEN",
+      "title": "The 6-Touch Follow-Up",
+      "format": "Lead Relay",
+      "crownCall": "Crown handoff. Last Thursday's Battle winner puts the Crown on his desk in front of the room and says the one line that won it. Then every agent calls out his goal for the week, same as the goal board.",
+      "lesson": {
+        "bigIdea": "Most agents call a lead once, get voicemail, and move on. The money is in attempts 2 through 6. Velocify found 93% of converted leads were reached by the 6th attempt, and half of all leads only ever got one call.",
+        "points": [
+          "Run a 6-touch cadence over 5 days: call and text on day 1, call on day 2, call and voicemail on day 3, call on day 5. Put every attempt in Command so it's tracked.",
+          "Vary the time of day. If morning didn't connect, try late afternoon or early evening the next day.",
+          "Texts get the callback. Keep them short and human: name, the request they sent in, one question.",
+          "Stay inside the lines: Florida caps solicitation calls at 3 per 24 hours on the same subject, so spread attempts across days."
+        ],
+        "stealThisLine": "Hey Linda, it's Mike getting back to you on the coverage request you sent in. Quick question: was that for just you, or you and your husband?"
+      },
+      "reps": {
+        "name": "Lead Relay",
+        "how": "Teams of three. The leader gives each team the same dead lead (no answer on 2 calls). Each agent writes one touch: a voicemail, a text, and a callback opener. Each team reads all three out loud, and the room votes on which team's lead would call back first. Two rounds with a new lead each time."
+      },
+      "lockIn": "Before your first dial, pull every lead with only 1 attempt from the last 7 days in Command. Those are your first calls today."
+    },
+    {
+      "day": "TUE",
+      "date": "10/6",
+      "lane": "THE CONVERSATION",
+      "title": "Sell the Vacation, Not the Plane Ride",
+      "format": "Paint the Picture",
+      "crownCall": "Scoreboard plus one \"why they bought.\" Every agent who closed yesterday says in one sentence the real reason his client bought. It is almost never the price.",
+      "lesson": {
+        "bigIdea": "Alex Hormozi's CLOSER framework: Clarify, Label, Overview past pain, Sell the vacation, Explain away concerns, Reinforce. Clients don't buy a policy. They buy what it makes possible: a paid funeral, a paid-off house, kids who don't carry the bill.",
+        "points": [
+          "Clarify: \"What made you reach out?\" Label it back to them: \"So you don't want the kids paying for this.\"",
+          "Overview past pain: \"Have you ever seen a family scramble to cover a funeral?\" Let them tell the story.",
+          "Sell the vacation: describe the outcome in their words, not the product features. \"If something happens, the funeral home is paid, and your daughter just grieves.\"",
+          "Explain away concerns one at a time, then reinforce the decision after the yes: \"You just took care of something most people never do.\""
+        ],
+        "stealThisLine": "So when the time comes, your daughter isn't making phone calls about money. She's just being with family. Is that what you want this to do?"
+      },
+      "reps": {
+        "name": "Paint the Picture",
+        "how": "Pairs. The client gives one fact (\"I'm 67, widowed, two kids\"). The agent gets 45 seconds to sell the vacation with zero product words: no premium, no face amount, no carrier name. Say one of those words and you're out. Three rounds, then swap."
+      },
+      "lockIn": "Write the outcome sentence for each of your three products (FEX, IUL, mortgage protection) on one card. Use one on your first sit."
+    },
+    {
+      "day": "WED",
+      "date": "10/7",
+      "lane": "CEO WEDNESDAY",
+      "title": "Scaling Personal Sales: Run Your Numbers",
+      "format": "Numbers Doctor",
+      "crownCall": "Name the bottleneck. Each agent says which number is holding him back this month: dials, sits, or closes. One word each, fast.",
+      "lesson": {
+        "bigIdea": "Your standard is 400 dials → 4 sits → 1 sale. To scale, figure out which stage is leaking, fix that one, and only then buy more leads. More volume on a broken funnel just burns money faster.",
+        "points": [
+          "Under 4 sits on 400 dials means the open is broken. Fix it with Monday's reps, not more dials.",
+          "4+ sits but no sale means the close is broken. Go to Film Room and role play.",
+          "Hitting 1 a day consistently? Scale the input: more lead spend matched with more dial time. That's the formula in your standards.",
+          "Hormozi's Rule of 100: 100 primary actions a day for 100 days before you judge whether something works.",
+          "Raise one number at a time. One more sit per day at your close rate is about one more sale a week."
+        ],
+        "stealThisLine": "I don't have a lead problem. I have a step problem, and I know which step."
+      },
+      "reps": {
+        "name": "Numbers Doctor",
+        "how": "Each agent writes last week's dials, sits, sales and IP on a card. Swap cards with a partner. The partner diagnoses the leak and prescribes one fix for this week. Leaders pick 2 cards to break down live for the room."
+      },
+      "lockIn": "Set this week's number to beat: the one stage you're fixing and the target. Post it in Discord before your first dial."
+    },
+    {
+      "day": "THU",
+      "date": "10/8",
+      "lane": "BATTLE FOR THE CROWN",
+      "title": "Objection Battle: Money",
+      "format": "Elimination",
+      "crownCall": "Walkouts. The defending Crown holder walks out last and has to survive every round to keep it. Throw-Down Thursday starts here.",
+      "lesson": {
+        "bigIdea": "\"I can't afford it\" usually means \"I don't see enough value yet\" or \"that number is too high.\" Find out which one before you answer, then solve the real problem.",
+        "points": [
+          "Isolate first: \"Is it the monthly amount, or are you not sure you need this?\"",
+          "If it's the amount, adjust the coverage, not the value: \"Let's find a number that works for your budget.\"",
+          "Break it down to daily: $54 a month is under $2 a day.",
+          "Never pressure past what they can keep paying. A lapse costs you more than the sale was worth."
+        ],
+        "stealThisLine": "Totally fair. If we found a number that fit your budget and still covered what matters, is this something you'd want in place?"
+      },
+      "reps": {
+        "name": "Battle for the Crown",
+        "how": "Full rules on the Battle page. This week the defending champion is automatically in. If he survives to the end, he keeps the Crown. If he's voted out, it's open season."
+      },
+      "lockIn": "Write the money line you're stealing on a sticky note and put it on your monitor next to your opener."
+    },
+    {
+      "day": "FRI",
+      "date": "10/9",
+      "lane": "FILM ROOM",
+      "title": "Tape Doesn't Lie: The Close",
+      "format": "Rewind the Ask",
+      "crownCall": "Bounty reveal. Today's bounty: the first agent to get a referral name on a sale before noon picks lunch.",
+      "lesson": {
+        "bigIdea": "Most lost deals never got a real ask. Agents explain, explain, explain, then trail off. On tape we look for one thing: was there a clear, confident ask, and what happened right after it?",
+        "points": [
+          "Tape 1 is a closed deal. Pause right after the ask. How long was the silence, and who broke it?",
+          "Tape 2 is a lost deal. Find the spot where the ask should have happened. Was it never made, or made with uptalk?",
+          "Assumptive transitions sound like next steps, not questions: \"Let's get the application started. What's your date of birth?\"",
+          "After the ask, stop talking. The first person to speak usually loses the frame."
+        ],
+        "stealThisLine": "Based on what you told me, this is the plan that fits. Let's get you approved. What's the best number for the carrier to reach you?"
+      },
+      "reps": {
+        "name": "Rewind the Ask",
+        "how": "The leader pauses Tape 2 at the moment the ask should have happened. Agents line up and deliver the ask one at a time, 15 seconds each. The client (leader) reacts honestly. The room votes for the best ask, and it goes into the script notes."
+      },
+      "lockIn": "On every sit today, make the ask before the 30-minute mark. Report your number at EOW tomorrow."
+    },
+    {
+      "day": "SAT",
+      "date": "10/10",
+      "lane": "THE ARENA",
+      "title": "Shark Tank: The Recruiting Pitch",
+      "format": "Shark Tank",
+      "crownCall": "Numbers and Draft Day results: which team is winning the Throw-Down so far, and what the losing team owes if they can't catch up today.",
+      "lesson": {
+        "bigIdea": "Every agent is also a recruiter. Building an agency starts with being able to explain the opportunity in 60 seconds, to a friend, a DM, or a guy at the gym, without sounding like a pitch.",
+        "points": [
+          "Lead with their 5-year question: \"Where do you see yourself in five years?\"",
+          "Tell your own story in two sentences: where you were, where you are now.",
+          "Show, don't promise: real numbers, real people on the team. Never lie about income.",
+          "End with a next step: \"Come sit in the office Tuesday and watch a call.\""
+        ],
+        "stealThisLine": "I'm not trying to sell you on anything. Come watch one day on the floor and decide for yourself."
+      },
+      "reps": {
+        "name": "Shark Tank",
+        "how": "Every agent pitches the opportunity in 60 seconds to a panel of three sharks (leaders or top producers). The sharks score each pitch on a 1–10 scale for Story, Energy and Ask. The top score wins the bounty, and the best pitch gets filmed for Instagram."
+      },
+      "lockIn": "Write 5 names from your warm market that you'll message this week. Bring the list to EOW."
+    }
+  ],
+  "battle": {
+    "title": "BATTLE FOR THE CROWN",
+    "subtitle": "Money week. The defending champion walks out last.",
+    "rules": [
+      "Contestants: every agent in his first 90 days is in, plus last week's Crown holder defending his title. Vets can volunteer.",
+      "The leader plays the client. Every contestant gets the same objection each round and has 45–60 seconds to handle it.",
+      "After each round the room votes. Raise a hand for each contestant, or use a Discord poll for remote agents. The lowest vote is out. On a tie, the tied contestants go to sudden death with a new objection.",
+      "Vote on four things: CONTROL (did he keep the frame), TONE (calm and certain), QUESTION (did he end with a question that moves forward) and CLEAN (no false promises, nothing he couldn't say to compliance).",
+      "The final two face the Boss Round: three objections stacked back to back without a break.",
+      "If the defending champ wins, he keeps the Crown. If anyone else wins, the Crown moves desks."
+    ],
+    "prize": "Prize (leadership sets it): e.g., $100 in lead credit plus lunch on the team",
+    "rounds": [
+      {
+        "round": "ROUND 1 · THE BUDGET",
+        "objections": ["\"I can't afford it.\"", "\"Money's tight right now.\""],
+        "handle": "Isolate, then adjust coverage, not value. \"Is it the monthly amount, or are you not sure you need it? If it's the amount, let's find a number that fits.\""
+      },
+      {
+        "round": "ROUND 2 · THE SHOPPER",
+        "objections": ["\"I can get it cheaper somewhere else.\"", "\"I saw an ad for $9.95 a month.\""],
+        "handle": "Agree and educate. \"You might. Those ads are often guaranteed-issue with a waiting period. Can I show you what you qualify for so you can compare apples to apples?\""
+      },
+      {
+        "round": "ROUND 3 · THE TIMING",
+        "objections": ["\"Call me after I get paid.\"", "\"Let me wait until next month.\""],
+        "handle": "Separate approval from payment. \"Totally fine. We can set the first draft for the day after you're paid. Let's get the approval done today so you're covered.\""
+      },
+      {
+        "round": "BOSS ROUND · STACKED",
+        "objections": ["\"It's too expensive\" → \"My son says I don't need it\" → \"I already have something through work.\""],
+        "handle": "One at a time. For the work policy: \"That's great. Does it follow you if you retire or leave?\" Calm tone, question at the end."
+      }
+    ]
+  },
+  "arenaNext": "Next Saturday: REVERSE ROLE PLAY. Leaders play the agent, and agents play the nightmare client."
+}
